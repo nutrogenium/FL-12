@@ -14,19 +14,19 @@
           <img src="logo.png"  width="140" height="100" alt="EPAM"> 
           <h1>HTML Elements</h1>
           <hr> 
-          <p><a name="Home"></a></p>
+          <p> <a id="Home"></a></p>
           <nav>
               <a href="#Home">Home</a>  
               <a href="#Headings">Headings</a> 
-              <a href="#Text formats">Text formats</a>
-              <a href="#Types of lists">Types of lists</a>
+              <a href="#Textformats">Text formats</a>
+              <a href="#Typesoflists">Types of lists</a>
               <a href="#Table">Table</a>
               <a href="#Blockquotes">Blockquotes</a>
               <a href="#Registration">Registration</a>
           </nav>
           <hr>
           <p>
-               Lorem ipsum dolor sit amet, <a href="test link">test link</a>  adipiscing elit.
+               Lorem ipsum dolor sit amet, <a href="testlink">test link</a>  adipiscing elit.
 Nullam dignissim convallis est. Quisque aliquam.
 <em>This is emphasized.</em>
 Donec faucibus. Nunc iaculis suscipit dui. 4<sup> 4</sup> = 256.
@@ -57,14 +57,14 @@ Maecenas ornare tortor. Donec sed tellus eget sapien fringilla nonummy. Mauris a
             <p>h1 defines the most important heading. h6 defines the least important heading. 
               Font-size for h1 is the same as font-size for h2, because we have to use only one h1 on the page,
                and it is commonly used inside header
-            </p> <a name="Headings"></a>
+            </p> <a id="Headings"></a>
             <h2>Heading 2</h2>
             <h3>Heading 3</h3>
             <h4>Heading 4</h4>
             <h5>Heading 5</h5>
             <h6>Heading 6</h6>
             <hr>
-            <h2><a name="Text formats"></a> Text formats</h2>
+            <h2><a id="Textformats"></a> Text formats</h2>
             <h3>Article</h3>
             <article> 
               <h2>Article title</h2>
@@ -89,8 +89,7 @@ both          <b>spaces</b>  and
 }      
               </code> 
             </pre>
-              
-            <h2> <a name="Types of lists"></a> Unordered Wish List</h2>
+            <h2> <a id="Typesoflists"></a> Unordered Wish List</h2>
             <ul>
                 <li>Ipnone 11 pro max</li>
                 <li>Books
@@ -137,8 +136,8 @@ both          <b>spaces</b>  and
             </select>
             <hr>
             <hr>
-            <h2> <a name="Table"></a> Table</h2>
-            <table caption="TAble" border="1">
+            <h2> <a id="Table"></a> Table</h2>
+            <table>
               <tr>
                 <th> Skill</th>
                 <th> Training</th>
@@ -165,7 +164,7 @@ both          <b>spaces</b>  and
                 <td> Dnipro</td>
               </tr>
               </table>
-              <h2> <a name="Blockquotes"></a>  Blockquote</h2>
+              <h2> <a id="Blockquotes"></a>  Blockquote</h2>
               <p>
                 Let’s keep it simple. Italics are good to help set it off from the body text.
                  Be sure to style the citation.
@@ -178,14 +177,16 @@ both          <b>spaces</b>  and
              </blockquote>
              <hr>
              <form>
-                <a name="Registration"></a>  <label align="right" for="first_name">Username:</label>
-                <input id="first_name" type="text"><br>
-                <label>Password: </label>
-                <input  align="right" type="password"> <br>
-                <label>Email:</label>
-                <input  type="email">
-                <p> <textarea cols="23" rows="5"></textarea></p>
-                <p><button type="submit" form="data">Submit</button></p>
+                <p> <a id="Registration"></a> 
+                  <label  for="first_name">Username:</label>
+                  <input id="first_name" type="text"><br>
+                  <label>Password: </label>
+                  <input  type="password" > <br>
+                  <label>Email:</label>
+                  <input  type="email"><br>
+                  <textarea cols="23" rows="5"></textarea> <br>
+                  <input type="submit" value="Submit">
+              </p>
             </form>
             <footer>
                 © Copyright Epam Systems
